@@ -3,9 +3,9 @@ language: generic
 jobs:
   include:
     - stage: first
-      script: echo "[info] first"
+      script: ./scripts/first
     - stage: second
-      script: echo "[info] second -> alpha"
-      script: echo "[info] second -> beta"
+      script: ./scripts/second alpha
+      script: ./scripts/second beta
     - stage: third
-      script: echo "[info] third"
+      script: ./scripts/third
