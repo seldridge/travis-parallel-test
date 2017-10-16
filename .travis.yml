@@ -11,6 +11,7 @@ jobs:
       script: ./scripts/first
     - stage: second
       script: ./scripts/second alpha
+    - stage: second
       script: ./scripts/second beta
     - stage: third
       script: ./scripts/third
