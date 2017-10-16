@@ -1,0 +1,11 @@
+language: generic
+
+jobs:
+  include:
+    - stage: first
+      script: echo "[info] first"
+    - stage: second
+      script: echo "[info] second -> alpha"
+      script: echo "[info] second -> beta"
+    - stage: third
+      script: echo "[info] third"
