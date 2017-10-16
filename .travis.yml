@@ -1,5 +1,10 @@
 language: generic
 
+stages:
+  - first
+  - second
+  - third
+
 jobs:
   include:
     - stage: first
